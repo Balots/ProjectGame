@@ -20,7 +20,7 @@ def run():
         screen.fill(STANDARD_BG_COLOR)
         Egen.game_events()
         Mgen.claim_info()
-        Mgen.calculation(cal=True)
+        Mgen.calculation(cal=False)
         Egen.agen.output()
         Lgen.get_runtime_load()
         pygame.display.flip()
